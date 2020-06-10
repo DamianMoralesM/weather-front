@@ -2,8 +2,6 @@
 
 A simple React weather app that displays weather information consuming https://weather-back-api.herokuapp.com/v1
 
-![Home page]()
-
 ## Getting started
 ```
 - 1. Clone the repo
