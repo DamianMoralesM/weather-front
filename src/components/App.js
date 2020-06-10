@@ -95,7 +95,7 @@ function handleResponse(response) {
 
 function getWeather(city) {
   return fetch(
-    `http://localhost:8080/v1/current/${city}`
+    `https://weather-back-api.herokuapp.com/v1/current/${city}`
   )
     .then(res => handleResponse(res))
     .then(weather => {
@@ -108,7 +108,7 @@ function getWeather(city) {
 
 function getForecast(city) {
   return fetch(
-    `http://localhost:8080/v1/forecast/${city}`
+    `https://weather-back-api.herokuapp.com/v1/forecast/${city}`
   )
     .then(res => handleResponse(res))
     .then(result => {
