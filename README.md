@@ -4,7 +4,7 @@ A simple React weather app that displays weather information consuming https://w
 API repo: https://github.com/DamianMoralesM/weather-api
 
 ## Feature Overview
-- By default shows current weather from server location, if you with with the API proyect in you localhost with display from you current location).
+- By default shows current weather from server location, if you work with the API proyect in you localhost with display from you current location).
 - Search current weather and forecast for a given city.
 
 # Getting started
